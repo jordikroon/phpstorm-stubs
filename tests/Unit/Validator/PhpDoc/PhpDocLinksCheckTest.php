@@ -104,7 +104,7 @@ class PhpDocLinksCheckTest extends PhpDocCheckTestCase
 
     public function testHttpLinkIsFailure(): void
     {
-        $phpDoc = "/**\n * @link https://www.php.net/manual/en/function.fopen.php\n */";
+        $phpDoc = "/**\n * @link http://www.php.net/manual/en/function.fopen.php\n */";
         $class = $this->makeClass('\\TestClass', phpDoc: $phpDoc);
         $result = $this->runCheck($this->makeCheck(), $this->makeStubsWithClass($class), '\\TestClass');
         $this->assertTrue($result->hasFailures(), 'http:// link must be flagged');
@@ -128,31 +128,31 @@ class PhpDocLinksCheckTest extends PhpDocCheckTestCase
 
     public function testMultipleHttpLinksAllReported(): void
     {
-        $phpDoc = "/**\n * @link https://www.php.net/fopen\n * @link https://www.php.net/fclose\n */";
+        $phpDoc = "/**\n * @link http://www.php.net/fopen\n * @link http://www.php.net/fclose\n */";
         $class = $this->makeClass('\\TestClass', phpDoc: $phpDoc);
         $result = $this->runCheck($this->makeCheck(), $this->makeStubsWithClass($class), '\\TestClass');
         $this->assertTrue($result->hasFailures());
         $message = implode(' ', $result->getFailures());
-        $this->assertStringContainsString('https://www.php.net/fopen', $message);
-        $this->assertStringContainsString('https://www.php.net/fclose', $message);
+        $this->assertStringContainsString('http://www.php.net/fopen', $message);
+        $this->assertStringContainsString('http://www.php.net/fclose', $message);
     }
 
     public function testMixedLinksOnlyHttpFlagged(): void
     {
-        $phpDoc = "/**\n * @link https://www.php.net/fopen Good link.\n * @link https://www.php.net/fclose Bad link.\n */";
+        $phpDoc = "/**\n * @link https://www.php.net/fopen Good link.\n * @link http://www.php.net/fclose Bad link.\n */";
         $class = $this->makeClass('\\TestClass', phpDoc: $phpDoc);
         $result = $this->runCheck($this->makeCheck(), $this->makeStubsWithClass($class), '\\TestClass');
         $this->assertTrue($result->hasFailures());
         $message = implode(' ', $result->getFailures());
         $this->assertStringNotContainsString('php.net/fopen', $message, 'https link must not be flagged');
-        $this->assertStringContainsString('https://www.php.net/fclose', $message);
+        $this->assertStringContainsString('http://www.php.net/fclose', $message);
     }
 
     // ── Method-level phpDoc ───────────────────────────────────────────────────
 
     public function testHttpLinkInMethodPhpDocIsFailure(): void
     {
-        $method = $this->makeMethodWithPhpDoc('doSomething', "/**\n * @link https://www.php.net/doSomething\n */");
+        $method = $this->makeMethodWithPhpDoc('doSomething', "/**\n * @link http://www.php.net/doSomething\n */");
         $class = $this->makeClass('\\TestClass', methods: [$method]);
         $result = $this->runCheck($this->makeCheck(), $this->makeStubsWithClass($class), '\\TestClass');
         $this->assertTrue($result->hasFailures());
@@ -180,7 +180,7 @@ class PhpDocLinksCheckTest extends PhpDocCheckTestCase
 
     public function testFunctionWithHttpLinkIsFailure(): void
     {
-        $phpDoc = "/**\n * @link https://www.php.net/manual/en/function.strpos.php\n */";
+        $phpDoc = "/**\n * @link http://www.php.net/manual/en/function.strpos.php\n */";
         $function = $this->makePhpDocFunction('\\strpos', $phpDoc);
         $result = $this->runCheck($this->makeCheck(), $this->makeStubsWithFunction($function), '\\strpos');
         $this->assertTrue($result->hasFailures());
@@ -282,7 +282,7 @@ class PhpDocLinksCheckTest extends PhpDocCheckTestCase
             return 200;
         };
 
-        $phpDoc = "/**\n * @link https://www.php.net/example\n */";
+        $phpDoc = "/**\n * @link http://www.php.net/example\n */";
         $class = $this->makeClass('\\TestClass', phpDoc: $phpDoc);
         $check = new PhpDocLinksCheck(null, null, $fetcher, checkLiveness: true);
         $check->run($this->makeStubsWithClass($class), '\\TestClass', PhpVersions::LATEST->value);
