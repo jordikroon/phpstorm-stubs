@@ -86,7 +86,7 @@ final class Server
 
     /**
      * Execute a database command that reads on this server
-     * @link https://secure.php.net/manual/en/mongodb-driver-server.executereadcommand.php
+     * @link https://www.php.net/manual/en/mongodb-driver-server.executereadcommand.php
      * @param string                  $db
      * @param \MongoDB\Driver\Command $command
      * @param array|null              $options
@@ -100,7 +100,7 @@ final class Server
 
     /**
      * Execute a database command that reads and writes on this server
-     * @link https://secure.php.net/manual/en/mongodb-driver-server.executereadwritecommand.php
+     * @link https://www.php.net/manual/en/mongodb-driver-server.executereadwritecommand.php
      * @param string                  $db
      * @param \MongoDB\Driver\Command $command
      * @param array|null              $options
@@ -114,7 +114,7 @@ final class Server
 
     /**
      * Execute a database command that writes on this server
-     * @link https://secure.php.net/manual/en/mongodb-driver-server.executewritecommand.php
+     * @link https://www.php.net/manual/en/mongodb-driver-server.executewritecommand.php
      * @param string                  $db
      * @param \MongoDB\Driver\Command $command
      * @param array|null              $options

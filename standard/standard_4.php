@@ -377,7 +377,7 @@ function highlight_string(string $string, bool $return = false) {}
 
 /**
  * Get the system's high resolution time
- * @link https://secure.php.net/manual/en/function.hrtime.php
+ * @link https://www.php.net/manual/en/function.hrtime.php
  * @param bool $as_number <p>Whether the high resolution time should be returned as array or number.<p>
  * @since 7.3
  * @return int[]|int|float|false Returns an array of integers in the form [seconds, nanoseconds], if the parameter get_as_number is false.

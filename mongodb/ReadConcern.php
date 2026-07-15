@@ -59,7 +59,7 @@ final class ReadConcern implements Serializable
 
     /**
      * Checks if this is the default read concern
-     * @link https://secure.php.net/manual/en/mongodb-driver-readconcern.isdefault.php
+     * @link https://www.php.net/manual/en/mongodb-driver-readconcern.isdefault.php
      * @since 1.3.0
      * @throws \MongoDB\Driver\Exception\InvalidArgumentException On argument parsing errors.
      */

@@ -2158,7 +2158,7 @@ class Imagick implements Iterator, Countable
     public function getImageFormat() {}
 
     /**
-     * @link https://secure.php.net/manual/en/imagick.getimagemimetype.php
+     * @link https://www.php.net/manual/en/imagick.getimagemimetype.php
      * @return string Returns the image mime-type.
      * @throws ImagickException on error.
      */

@@ -7,7 +7,7 @@ use JetBrains\PhpStorm\Internal\TentativeType;
 use JetBrains\PhpStorm\Pure;
 
 /**
- * @link https://secure.php.net/manual/en/class.reflectionzendextension.php
+ * @link https://www.php.net/manual/en/class.reflectionzendextension.php
  * @since 5.4
  */
 class ReflectionZendExtension implements Reflector

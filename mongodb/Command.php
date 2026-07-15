@@ -17,7 +17,7 @@ final class Command
      * @param array|object $document The complete command to construct
      * @param array|null $commandOptions Do not use this parameter to specify options described in the command's reference in the MongoDB manual.
      * @throws InvalidArgumentException on argument parsing errors.
-     * @link https://secure.php.net/manual/en/mongodb-driver-command.construct.php
+     * @link https://www.php.net/manual/en/mongodb-driver-command.construct.php
      * @since 1.0.0
      */
     final public function __construct(array|object $document, ?array $commandOptions = null) {}

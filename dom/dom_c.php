@@ -43,7 +43,7 @@ class DOMNode
     /**
      * @var int
      * Gets the type of the node. One of the predefined
-     * <a href="https://secure.php.net/manual/en/dom.constants.php">XML_xxx_NODE</a> constants
+     * <a href="https://www.php.net/manual/en/dom.constants.php">XML_xxx_NODE</a> constants
      * @link https://php.net/manual/en/class.domnode.php#domnode.props.nodetype
      */
     #[LanguageLevelTypeAware(['8.1' => 'int'], default: '')]
@@ -364,7 +364,7 @@ class DOMNode
     /**
      * Gets an XPath location path for the node
      * @return string|null the XPath, or NULL in case of an error.
-     * @link https://secure.php.net/manual/en/domnode.getnodepath.php
+     * @link https://www.php.net/manual/en/domnode.getnodepath.php
      */
     #[TentativeType]
     public function getNodePath(): ?string {}
@@ -2267,14 +2267,14 @@ class DOMConfiguration
 
 /**
  * The DOMCdataSection inherits from DOMText for textural representation of CData constructs.
- * @link https://secure.php.net/manual/en/class.domcdatasection.php
+ * @link https://www.php.net/manual/en/class.domcdatasection.php
  */
 class DOMCdataSection extends DOMText
 {
     /**
      * The value of the CDATA node. If not supplied, an empty CDATA node is created.
      * @param string $data The value of the CDATA node. If not supplied, an empty CDATA node is created.
-     * @link https://secure.php.net/manual/en/domcdatasection.construct.php
+     * @link https://www.php.net/manual/en/domcdatasection.construct.php
      */
     public function __construct(#[LanguageLevelTypeAware(['8.0' => 'string'], default: '')] $data) {}
 }

@@ -187,7 +187,7 @@ final class Manager
 
     /**
      * Preselect a MongoDB node based on provided readPreference. This can be useful to guarantee a command runs on a specific server when operating in a mixed version cluster.
-     * https://secure.php.net/manual/en/mongodb-driver-manager.selectserver.php
+     * https://www.php.net/manual/en/mongodb-driver-manager.selectserver.php
      * @param ReadPreference|null $readPreference Optionally, a MongoDB\Driver\ReadPreference to route the command to. If none given, defaults to the Read Preferences set by the MongoDB Connection URI.
      * @throws InvalidArgumentException on argument parsing errors.
      * @throws ConnectionException if connection to the server fails (for reasons other than authentication).
@@ -203,7 +203,7 @@ final class Manager
      * @return \MongoDB\Driver\Session
      * @throws \MongoDB\Driver\Exception\InvalidArgumentException On argument parsing errors
      * @throws \MongoDB\Driver\Exception\RuntimeException If the session could not be created (e.g. libmongoc does not support crypto).
-     * @link https://secure.php.net/manual/en/mongodb-driver-manager.startsession.php
+     * @link https://www.php.net/manual/en/mongodb-driver-manager.startsession.php
      * @since 1.4.0
      */
     final public function startSession(?array $options = null) {}

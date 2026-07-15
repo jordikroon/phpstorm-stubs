@@ -31,7 +31,7 @@ final class ObjectId implements Type, ObjectIdInterface, JsonSerializable, Strin
     /**
      * Returns the timestamp component of this ObjectId
      * @since 1.2.0
-     * @link https://secure.php.net/manual/en/mongodb-bson-objectid.gettimestamp.php
+     * @link https://www.php.net/manual/en/mongodb-bson-objectid.gettimestamp.php
      * @return int the timestamp component of this ObjectId
      */
     final public function getTimestamp(): int {}
@@ -39,7 +39,7 @@ final class ObjectId implements Type, ObjectIdInterface, JsonSerializable, Strin
     /**
      * Returns a representation that can be converted to JSON
      * @since 1.2.0
-     * @link https://secure.php.net/manual/en/mongodb-bson-objectid.jsonserialize.php
+     * @link https://www.php.net/manual/en/mongodb-bson-objectid.jsonserialize.php
      * @return mixed data which can be serialized by json_encode()
      */
     final public function jsonSerialize(): mixed {}

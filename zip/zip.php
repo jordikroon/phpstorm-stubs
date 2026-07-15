@@ -326,147 +326,147 @@ class ZipArchive implements Countable
 
     /**
      * No encryption
-     * @link https://secure.php.net/manual/en/zip.constants.php
+     * @link https://www.php.net/manual/en/zip.constants.php
      * @since 7.2
      */
     public const EM_NONE = 0;
 
     /**
      * AES 128 encryption
-     * @link https://secure.php.net/manual/en/zip.constants.php
+     * @link https://www.php.net/manual/en/zip.constants.php
      * @since 7.2
      */
     public const EM_AES_128 = 257;
 
     /**
      * AES 192 encryption
-     * @link https://secure.php.net/manual/en/zip.constants.php
+     * @link https://www.php.net/manual/en/zip.constants.php
      * @since 7.2
      */
     public const EM_AES_192 = 258;
 
     /**
      * AES 256 encryption
-     * @link https://secure.php.net/manual/en/zip.constants.php
+     * @link https://www.php.net/manual/en/zip.constants.php
      * @since 7.2
      */
     public const EM_AES_256 = 259;
 
     /**
      * Open archive in read only mode
-     * @link https://secure.php.net/manual/en/zip.constants.php
+     * @link https://www.php.net/manual/en/zip.constants.php
      * @since 7.4
      */
     public const RDONLY = 16;
 
     /**
      * Guess string encoding (is default)
-     * @link https://secure.php.net/manual/en/zip.constants.php
+     * @link https://www.php.net/manual/en/zip.constants.php
      * @since 7.0
      */
     public const FL_ENC_GUESS = 0;
 
     /**
      * Get unmodified string
-     * @link https://secure.php.net/manual/en/zip.constants.php
+     * @link https://www.php.net/manual/en/zip.constants.php
      * @since 7.0
      */
     public const FL_ENC_RAW = 64;
 
     /**
      * Follow specification strictly
-     * @link https://secure.php.net/manual/en/zip.constants.php
+     * @link https://www.php.net/manual/en/zip.constants.php
      * @since 7.0
      */
     public const FL_ENC_STRICT = 128;
 
     /**
      * String is UTF-8 encoded
-     * @link https://secure.php.net/manual/en/zip.constants.php
+     * @link https://www.php.net/manual/en/zip.constants.php
      * @since 7.0
      */
     public const FL_ENC_UTF_8 = 2048;
 
     /**
      * String is CP437 encoded
-     * @link https://secure.php.net/manual/en/zip.constants.php
+     * @link https://www.php.net/manual/en/zip.constants.php
      * @since 7.0
      */
     public const FL_ENC_CP437 = 4096;
 
     /**
      * LZMA2 algorithm
-     * @link https://secure.php.net/manual/en/zip.constants.php
+     * @link https://www.php.net/manual/en/zip.constants.php
      * @since 7.4
      */
     public const CM_LZMA2 = 33;
 
     /**
      * XZ algorithm
-     * @link https://secure.php.net/manual/en/zip.constants.php
+     * @link https://www.php.net/manual/en/zip.constants.php
      * @since 7.4
      */
     public const CM_XZ = 95;
 
     /**
      * Encryption method not support
-     * @link https://secure.php.net/manual/en/zip.constants.php
+     * @link https://www.php.net/manual/en/zip.constants.php
      * @since 7.4
      */
     public const ER_ENCRNOTSUPP = 24;
 
     /**
      * Read-only archive
-     * @link https://secure.php.net/manual/en/zip.constants.php
+     * @link https://www.php.net/manual/en/zip.constants.php
      * @since 7.4
      */
     public const ER_RDONLY = 25;
 
     /**
      * No password provided
-     * @link https://secure.php.net/manual/en/zip.constants.php
+     * @link https://www.php.net/manual/en/zip.constants.php
      * @since 7.4
      */
     public const ER_NOPASSWD = 26;
 
     /**
      * Wrong password provided
-     * @link https://secure.php.net/manual/en/zip.constants.php
+     * @link https://www.php.net/manual/en/zip.constants.php
      * @since 7.4
      */
     public const ER_WRONGPASSWD = 27;
 
     /**
      * Operation not supported
-     * @link https://secure.php.net/manual/en/zip.constants.php
+     * @link https://www.php.net/manual/en/zip.constants.php
      * @since 7.4
      */
     public const ER_OPNOTSUPP = 28;
 
     /**
      * Resource still in use
-     * @link https://secure.php.net/manual/en/zip.constants.php
+     * @link https://www.php.net/manual/en/zip.constants.php
      * @since 7.4
      */
     public const ER_INUSE = 29;
 
     /**
      * Tell error
-     * @link https://secure.php.net/manual/en/zip.constants.php
+     * @link https://www.php.net/manual/en/zip.constants.php
      * @since 7.4
      */
     public const ER_TELL = 30;
 
     /**
      * Compressed data invalid
-     * @link https://secure.php.net/manual/en/zip.constants.php
+     * @link https://www.php.net/manual/en/zip.constants.php
      * @since 7.4
      */
     public const ER_COMPRESSED_DATA = 31;
 
     /**
      * Operation cancelled
-     * @link https://secure.php.net/manual/en/zip.constants.php
+     * @link https://www.php.net/manual/en/zip.constants.php
      * @since 7.4
      */
     public const ER_CANCELLED = 32;
@@ -1032,7 +1032,7 @@ class ZipArchive implements Countable
 
     /**
      * Set the compression method of an entry defined by its name
-     * https://secure.php.net/manual/en/ziparchive.setcompressionname.php
+     * https://www.php.net/manual/en/ziparchive.setcompressionname.php
      * @param string $name Name of the entry.
      * @param int $method The compression method. Either ZipArchive::CM_DEFAULT, ZipArchive::CM_STORE or ZipArchive::CM_DEFLATE.
      * @param int $compflags [optional] Compression flags. Currently unused.

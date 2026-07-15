@@ -145,7 +145,7 @@ class Directory
      * Close directory handle.
      * Same as closedir(), only dir_handle defaults to $this.
      * @param resource $dir_handle [optional]
-     * @link https://secure.php.net/manual/en/directory.close.php
+     * @link https://www.php.net/manual/en/directory.close.php
      */
     #[LanguageLevelTypeAware(['8.0' => 'void'], default: '')]
     public function close(#[PhpStormStubsElementAvailable(from: '5.3', to: '7.4')] $dir_handle = null) {}
@@ -154,7 +154,7 @@ class Directory
      * Rewind directory handle.
      * Same as rewinddir(), only dir_handle defaults to $this.
      * @param resource $dir_handle [optional]
-     * @link https://secure.php.net/manual/en/directory.rewind.php
+     * @link https://www.php.net/manual/en/directory.rewind.php
      */
     #[LanguageLevelTypeAware(['8.0' => 'void'], default: '')]
     public function rewind(#[PhpStormStubsElementAvailable(from: '5.3', to: '7.4')] $dir_handle = null) {}
@@ -164,7 +164,7 @@ class Directory
      * Same as readdir(), only dir_handle defaults to $this.
      * @param resource $dir_handle [optional]
      * @return string|false
-     * @link https://secure.php.net/manual/en/directory.read.php
+     * @link https://www.php.net/manual/en/directory.read.php
      */
     #[LanguageLevelTypeAware(['8.0' => 'string|false'], default: '')]
     public function read(#[PhpStormStubsElementAvailable(from: '5.3', to: '7.4')] $dir_handle = null) {}
@@ -371,7 +371,7 @@ function wordwrap(string $string, int $width = 75, string $break = "\n", bool $c
  * Convert special characters to HTML entities
  * @link https://php.net/manual/en/function.htmlspecialchars.php
  * @param string $string <p>
- * The {@link https://secure.php.net/manual/en/language.types.string.php string} being converted.
+ * The {@link https://www.php.net/manual/en/language.types.string.php string} being converted.
  * </p>
  * @param int $flags [optional] <p>
  * A bitmask of one or more of the following flags, which specify how to handle quotes,

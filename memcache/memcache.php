@@ -99,7 +99,7 @@ class MemcachePool
     /**
      * (PECL memcache &gt;= 2.1.0)<br/>
      * Changes server parameters and status at runtime
-     * @link https://secure.php.net/manual/en/memcache.setserverparams.php
+     * @link https://www.php.net/manual/en/memcache.setserverparams.php
      * @param string $host <p>Point to the host where memcached is listening for connections.</p>.
      * @param int $port [optional] <p>
      * Point to the port where memcached is listening for connections.
@@ -111,7 +111,7 @@ class MemcachePool
      * Controls how often a failed server will be retried, the default value
      * is 15 seconds. Setting this parameter to -1 disables automatic retry.
      * Neither this nor the <b>persistent</b> parameter has any
-     * effect when the extension is loaded dynamically via {@link https://secure.php.net/manual/en/function.dl.php dl()}.
+     * effect when the extension is loaded dynamically via {@link https://www.php.net/manual/en/function.dl.php dl()}.
      * </p>
      * @param bool $status [optional] <p>
      * Controls if the server should be flagged as online. Setting this parameter
@@ -252,7 +252,7 @@ class MemcachePool
     /**
      * (PECL memcache &gt;= 0.2.0)<br/>
      * Delete item from the server
-     * https://secure.php.net/manual/en/memcache.delete.php
+     * https://www.php.net/manual/en/memcache.delete.php
      * @param string $key The key associated with the item to delete.
      * @param int $timeout [optional] This deprecated parameter is not supported, and defaults to 0 seconds. Do not use this parameter.
      * @return bool Returns <b>TRUE</b> on success or <b>FALSE</b> on failure.
@@ -484,7 +484,7 @@ function memcache_add_server($memcache, $host, $port = 11211, $persistent = true
  * (PECL memcache &gt;= 2.1.0)<br/>
  * Changes server parameters and status at runtime
  *
- * @link https://secure.php.net/manual/en/memcache.setserverparams.php
+ * @link https://www.php.net/manual/en/memcache.setserverparams.php
  *
  * @param Memcache $memcache
  * @param string $host <p>Point to the host where memcached is listening for connections.</p>.
@@ -498,7 +498,7 @@ function memcache_add_server($memcache, $host, $port = 11211, $persistent = true
  * Controls how often a failed server will be retried, the default value
  * is 15 seconds. Setting this parameter to -1 disables automatic retry.
  * Neither this nor the <b>persistent</b> parameter has any
- * effect when the extension is loaded dynamically via {@link https://secure.php.net/manual/en/function.dl.php dl()}.
+ * effect when the extension is loaded dynamically via {@link https://www.php.net/manual/en/function.dl.php dl()}.
  * </p>
  * @param bool $status [optional] <p>
  * Controls if the server should be flagged as online. Setting this parameter
@@ -669,7 +669,7 @@ function memcache_get($memcache, $key, &$flags = null) {}
 /**
  * (PECL memcache &gt;= 0.2.0)<br/>
  * Delete item from the server
- * https://secure.php.net/manual/en/memcache.delete.php
+ * https://www.php.net/manual/en/memcache.delete.php
  *
  * @param Memcache $memcache
  * @param string $key The key associated with the item to delete.

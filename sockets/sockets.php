@@ -709,7 +709,7 @@ function socket_send(Socket $socket, string $data, int $length, int $flags): int
 /**
  * (PHP 5 &gt;=5.5.0)<br/>
  * Send a message
- * @link https://secure.php.net/manual/en/function.socket-sendmsg.php
+ * @link https://www.php.net/manual/en/function.socket-sendmsg.php
  * @param resource|Socket $socket
  * @param array $message
  * @param int $flags
@@ -799,7 +799,7 @@ function socket_recvfrom(Socket $socket, &$data, int $length, int $flags, &$addr
 
 /**
  * Read a message
- * @link https://secure.php.net/manual/en/function.socket-recvmsg.php
+ * @link https://www.php.net/manual/en/function.socket-recvmsg.php
  * @param resource|Socket $socket
  * @param array &$message
  * @param int $flags

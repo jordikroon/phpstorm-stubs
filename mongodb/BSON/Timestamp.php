@@ -28,14 +28,14 @@ final class Timestamp implements TimestampInterface, JsonSerializable, Type, Str
 
     /**
      * Returns the increment component of this TimestampInterface
-     * @link https://secure.php.net/manual/en/mongodb-bson-timestampinterface.getincrement.php
+     * @link https://www.php.net/manual/en/mongodb-bson-timestampinterface.getincrement.php
      * @since 1.3.0
      */
     final public function getIncrement(): int {}
 
     /**
      * Returns the timestamp component of this TimestampInterface
-     * @link https://secure.php.net/manual/en/mongodb-bson-timestampinterface.gettimestamp.php
+     * @link https://www.php.net/manual/en/mongodb-bson-timestampinterface.gettimestamp.php
      * @since 1.3.0
      */
     final public function getTimestamp(): int {}

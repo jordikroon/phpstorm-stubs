@@ -96,7 +96,7 @@ class UnexpectedValueException extends RuntimeException {}
 
 /**
  * The EmptyIterator class for an empty iterator.
- * @link https://secure.php.net/manual/en/class.emptyiterator.php
+ * @link https://www.php.net/manual/en/class.emptyiterator.php
  */
 class EmptyIterator implements Iterator
 {
@@ -145,7 +145,7 @@ class EmptyIterator implements Iterator
 
 /**
  * Filtered iterator using the callback to determine which items are accepted or rejected.
- * @link https://secure.php.net/manual/en/class.callbackfilteriterator.php
+ * @link https://www.php.net/manual/en/class.callbackfilteriterator.php
  * @since 5.4
  */
 class CallbackFilterIterator extends FilterIterator
@@ -157,14 +157,14 @@ class CallbackFilterIterator extends FilterIterator
      * May be any valid callable value.
      * The callback should accept up to three arguments: the current item, the current key and the iterator, respectively.
      * <code> function my_callback($current, $key, $iterator) </code>
-     * @link https://secure.php.net/manual/en/callbackfilteriterator.construct.php
+     * @link https://www.php.net/manual/en/callbackfilteriterator.construct.php
      */
     public function __construct(Iterator $iterator, callable $callback) {}
 
     /**
      * This method calls the callback with the current value, current key and the inner iterator.
      * The callback is expected to return TRUE if the current item is to be accepted, or FALSE otherwise.
-     * @link https://secure.php.net/manual/en/callbackfilteriterator.accept.php
+     * @link https://www.php.net/manual/en/callbackfilteriterator.accept.php
      * @return bool true if the current element is acceptable, otherwise false.
      */
     #[TentativeType]
@@ -174,7 +174,7 @@ class CallbackFilterIterator extends FilterIterator
 /**
  * (PHP 5 >= 5.4.0)<br>
  * RecursiveCallbackFilterIterator from a RecursiveIterator
- * @link https://secure.php.net/manual/en/class.recursivecallbackfilteriterator.php
+ * @link https://www.php.net/manual/en/class.recursivecallbackfilteriterator.php
  * @since 5.4
  */
 class RecursiveCallbackFilterIterator extends CallbackFilterIterator implements RecursiveIterator
@@ -201,7 +201,7 @@ class RecursiveCallbackFilterIterator extends CallbackFilterIterator implements 
 
     /**
      * Returns an iterator for the current entry.
-     * @link https://secure.php.net/manual/en/recursivecallbackfilteriterator.haschildren.php
+     * @link https://www.php.net/manual/en/recursivecallbackfilteriterator.haschildren.php
      * @return RecursiveCallbackFilterIterator containing the children.
      */
     #[TentativeType]
@@ -1308,7 +1308,7 @@ class RegexIterator extends FilterIterator
 
     /**
      * Returns current regular expression
-     * @link https://secure.php.net/manual/en/regexiterator.getregex.php
+     * @link https://www.php.net/manual/en/regexiterator.getregex.php
      * @return string
      * @since 5.4
      */

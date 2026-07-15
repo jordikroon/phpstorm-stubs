@@ -883,7 +883,7 @@ function openssl_open(
 
 /**
  * Generates a PKCS5 v2 PBKDF2 string, defaults to SHA-1
- * @link https://secure.php.net/manual/en/function.openssl-pbkdf2.php
+ * @link https://www.php.net/manual/en/function.openssl-pbkdf2.php
  * @param string $password
  * @param string $salt
  * @param int $key_length

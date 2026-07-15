@@ -2,7 +2,7 @@
 /**
  * MongoDB Extension Stub File
  * @version 1.1.9
- * Documentation taken from https://secure.php.net/manual/en/set.mongodb.php
+ * Documentation taken from https://www.php.net/manual/en/set.mongodb.php
  * @author Anton Tuyakhov <atuyakhov@gmail.com>
  */
 
