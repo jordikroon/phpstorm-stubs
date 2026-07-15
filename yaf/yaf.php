@@ -2,7 +2,7 @@
 
 /**
  * The constants below are defined by this extension, and will only be available when the extension has either been compiled into PHP or dynamically loaded at runtime.
- * @link https://php.net/manual/en/yaf.constants.php
+ * @link https://www.php.net/manual/en/yaf.constants.php
  */
 define('YAF_VERSION', '3.3.5', true);
 define('YAF_ENVIRON', 'product', true);
