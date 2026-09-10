@@ -78,8 +78,8 @@
         "constants": [],
         "parentClass": null,
         "interfaces": [
-            "Iterator",
-            "Traversable"
+            "\\Iterator",
+            "\\Traversable"
         ]
     },
     {
@@ -300,8 +300,8 @@
         "constants": [],
         "parentClass": null,
         "interfaces": [
-            "Stringable",
-            "Throwable"
+            "\\Stringable",
+            "\\Throwable"
         ]
     },
     {
@@ -541,8 +541,8 @@
         "constants": [],
         "parentClass": "Exception",
         "interfaces": [
-            "Throwable",
-            "Stringable"
+            "\\Throwable",
+            "\\Stringable"
         ]
     },
     {
@@ -763,8 +763,8 @@
         "constants": [],
         "parentClass": null,
         "interfaces": [
-            "Stringable",
-            "Throwable"
+            "\\Stringable",
+            "\\Throwable"
         ]
     },
     {
@@ -953,8 +953,8 @@
         "constants": [],
         "parentClass": "Error",
         "interfaces": [
-            "Throwable",
-            "Stringable"
+            "\\Throwable",
+            "\\Stringable"
         ]
     },
     {
@@ -1143,8 +1143,8 @@
         "constants": [],
         "parentClass": "CompileError",
         "interfaces": [
-            "Stringable",
-            "Throwable"
+            "\\Stringable",
+            "\\Throwable"
         ]
     },
     {
@@ -1333,8 +1333,8 @@
         "constants": [],
         "parentClass": "Error",
         "interfaces": [
-            "Throwable",
-            "Stringable"
+            "\\Throwable",
+            "\\Stringable"
         ]
     },
     {
@@ -1523,8 +1523,8 @@
         "constants": [],
         "parentClass": "TypeError",
         "interfaces": [
-            "Stringable",
-            "Throwable"
+            "\\Stringable",
+            "\\Throwable"
         ]
     },
     {
@@ -1713,8 +1713,8 @@
         "constants": [],
         "parentClass": "Error",
         "interfaces": [
-            "Throwable",
-            "Stringable"
+            "\\Throwable",
+            "\\Stringable"
         ]
     },
     {
@@ -1903,8 +1903,8 @@
         "constants": [],
         "parentClass": "Error",
         "interfaces": [
-            "Throwable",
-            "Stringable"
+            "\\Throwable",
+            "\\Stringable"
         ]
     },
     {
@@ -2093,8 +2093,8 @@
         "constants": [],
         "parentClass": "ArithmeticError",
         "interfaces": [
-            "Stringable",
-            "Throwable"
+            "\\Stringable",
+            "\\Throwable"
         ]
     },
     {
@@ -2283,8 +2283,8 @@
         "constants": [],
         "parentClass": "Error",
         "interfaces": [
-            "Throwable",
-            "Stringable"
+            "\\Throwable",
+            "\\Stringable"
         ]
     },
     {
@@ -2473,8 +2473,8 @@
         "constants": [],
         "parentClass": "Exception",
         "interfaces": [
-            "Throwable",
-            "Stringable"
+            "\\Throwable",
+            "\\Stringable"
         ]
     },
     {
@@ -2785,8 +2785,8 @@
         "constants": [],
         "parentClass": null,
         "interfaces": [
-            "Iterator",
-            "Traversable"
+            "\\Iterator",
+            "\\Traversable"
         ]
     },
     {
@@ -2975,8 +2975,8 @@
         "constants": [],
         "parentClass": "Exception",
         "interfaces": [
-            "Throwable",
-            "Stringable"
+            "\\Throwable",
+            "\\Stringable"
         ]
     },
     {
@@ -3176,10 +3176,10 @@
         "constants": [],
         "parentClass": null,
         "interfaces": [
-            "ArrayAccess",
-            "Countable",
-            "IteratorAggregate",
-            "Traversable"
+            "\\ArrayAccess",
+            "\\Countable",
+            "\\IteratorAggregate",
+            "\\Traversable"
         ]
     },
     {
@@ -3853,8 +3853,8 @@
         "constants": [],
         "parentClass": "Error",
         "interfaces": [
-            "Throwable",
-            "Stringable"
+            "\\Throwable",
+            "\\Stringable"
         ]
     },
     {
@@ -4580,7 +4580,7 @@
         ],
         "parentClass": null,
         "interfaces": [
-            "DateTimeInterface"
+            "\\DateTimeInterface"
         ]
     },
     {
@@ -5293,7 +5293,7 @@
         ],
         "parentClass": null,
         "interfaces": [
-            "DateTimeInterface"
+            "\\DateTimeInterface"
         ]
     },
     {
@@ -6050,8 +6050,8 @@
         ],
         "parentClass": null,
         "interfaces": [
-            "IteratorAggregate",
-            "Traversable"
+            "\\IteratorAggregate",
+            "\\Traversable"
         ]
     },
     {
@@ -6240,8 +6240,8 @@
         "constants": [],
         "parentClass": "Error",
         "interfaces": [
-            "Throwable",
-            "Stringable"
+            "\\Throwable",
+            "\\Stringable"
         ]
     },
     {
@@ -6430,8 +6430,8 @@
         "constants": [],
         "parentClass": "DateError",
         "interfaces": [
-            "Stringable",
-            "Throwable"
+            "\\Stringable",
+            "\\Throwable"
         ]
     },
     {
@@ -6620,8 +6620,8 @@
         "constants": [],
         "parentClass": "DateError",
         "interfaces": [
-            "Stringable",
-            "Throwable"
+            "\\Stringable",
+            "\\Throwable"
         ]
     },
     {
@@ -6810,8 +6810,8 @@
         "constants": [],
         "parentClass": "Exception",
         "interfaces": [
-            "Throwable",
-            "Stringable"
+            "\\Throwable",
+            "\\Stringable"
         ]
     },
     {
@@ -7000,8 +7000,8 @@
         "constants": [],
         "parentClass": "DateException",
         "interfaces": [
-            "Stringable",
-            "Throwable"
+            "\\Stringable",
+            "\\Throwable"
         ]
     },
     {
@@ -7190,8 +7190,8 @@
         "constants": [],
         "parentClass": "DateException",
         "interfaces": [
-            "Stringable",
-            "Throwable"
+            "\\Stringable",
+            "\\Throwable"
         ]
     },
     {
@@ -7380,8 +7380,8 @@
         "constants": [],
         "parentClass": "DateException",
         "interfaces": [
-            "Stringable",
-            "Throwable"
+            "\\Stringable",
+            "\\Throwable"
         ]
     },
     {
@@ -7570,8 +7570,8 @@
         "constants": [],
         "parentClass": "DateException",
         "interfaces": [
-            "Stringable",
-            "Throwable"
+            "\\Stringable",
+            "\\Throwable"
         ]
     },
     {
@@ -7760,8 +7760,8 @@
         "constants": [],
         "parentClass": "DateException",
         "interfaces": [
-            "Stringable",
-            "Throwable"
+            "\\Stringable",
+            "\\Throwable"
         ]
     },
     {
@@ -8045,8 +8045,8 @@
         "constants": [],
         "parentClass": "Exception",
         "interfaces": [
-            "Throwable",
-            "Stringable"
+            "\\Throwable",
+            "\\Stringable"
         ]
     },
     {
@@ -9798,8 +9798,8 @@
         "constants": [],
         "parentClass": "Exception",
         "interfaces": [
-            "Throwable",
-            "Stringable"
+            "\\Throwable",
+            "\\Stringable"
         ]
     },
     {
@@ -12481,7 +12481,7 @@
         ],
         "parentClass": "DOMNode",
         "interfaces": [
-            "DOMParentNode"
+            "\\DOMParentNode"
         ]
     },
     {
@@ -13302,7 +13302,7 @@
         ],
         "parentClass": "Dom\\Node",
         "interfaces": [
-            "Dom\\ParentNode"
+            "\\Dom\\ParentNode"
         ]
     },
     {
@@ -14724,7 +14724,7 @@
         ],
         "parentClass": "Dom\\Node",
         "interfaces": [
-            "Dom\\ParentNode"
+            "\\Dom\\ParentNode"
         ]
     },
     {
@@ -16569,7 +16569,7 @@
         ],
         "parentClass": "DOMNode",
         "interfaces": [
-            "DOMParentNode"
+            "\\DOMParentNode"
         ]
     },
     {
@@ -18218,7 +18218,7 @@
         ],
         "parentClass": "Dom\\Document",
         "interfaces": [
-            "Dom\\ParentNode"
+            "\\Dom\\ParentNode"
         ]
     },
     {
@@ -19917,7 +19917,7 @@
         ],
         "parentClass": "Dom\\Document",
         "interfaces": [
-            "Dom\\ParentNode"
+            "\\Dom\\ParentNode"
         ]
     },
     {
@@ -19986,9 +19986,9 @@
         "constants": [],
         "parentClass": null,
         "interfaces": [
-            "IteratorAggregate",
-            "Traversable",
-            "Countable"
+            "\\IteratorAggregate",
+            "\\Traversable",
+            "\\Countable"
         ]
     },
     {
@@ -20057,9 +20057,9 @@
         "constants": [],
         "parentClass": null,
         "interfaces": [
-            "IteratorAggregate",
-            "Traversable",
-            "Countable"
+            "\\IteratorAggregate",
+            "\\Traversable",
+            "\\Countable"
         ]
     },
     {
@@ -20185,9 +20185,9 @@
         "constants": [],
         "parentClass": null,
         "interfaces": [
-            "IteratorAggregate",
-            "Traversable",
-            "Countable"
+            "\\IteratorAggregate",
+            "\\Traversable",
+            "\\Countable"
         ]
     },
     {
@@ -20313,9 +20313,9 @@
         "constants": [],
         "parentClass": null,
         "interfaces": [
-            "IteratorAggregate",
-            "Traversable",
-            "Countable"
+            "\\IteratorAggregate",
+            "\\Traversable",
+            "\\Countable"
         ]
     },
     {
@@ -20441,9 +20441,9 @@
         "constants": [],
         "parentClass": null,
         "interfaces": [
-            "IteratorAggregate",
-            "Traversable",
-            "Countable"
+            "\\IteratorAggregate",
+            "\\Traversable",
+            "\\Countable"
         ]
     },
     {
@@ -20535,9 +20535,9 @@
         "constants": [],
         "parentClass": null,
         "interfaces": [
-            "IteratorAggregate",
-            "Traversable",
-            "Countable"
+            "\\IteratorAggregate",
+            "\\Traversable",
+            "\\Countable"
         ]
     },
     {
@@ -21550,7 +21550,7 @@
         ],
         "parentClass": "DOMNode",
         "interfaces": [
-            "DOMChildNode"
+            "\\DOMChildNode"
         ]
     },
     {
@@ -22490,7 +22490,7 @@
         ],
         "parentClass": "Dom\\Node",
         "interfaces": [
-            "Dom\\ChildNode"
+            "\\Dom\\ChildNode"
         ]
     },
     {
@@ -25708,8 +25708,8 @@
         ],
         "parentClass": "DOMNode",
         "interfaces": [
-            "DOMParentNode",
-            "DOMChildNode"
+            "\\DOMParentNode",
+            "\\DOMChildNode"
         ]
     },
     {
@@ -27443,8 +27443,8 @@
         ],
         "parentClass": "Dom\\Node",
         "interfaces": [
-            "Dom\\ParentNode",
-            "Dom\\ChildNode"
+            "\\Dom\\ParentNode",
+            "\\Dom\\ChildNode"
         ]
     },
     {
@@ -29178,8 +29178,8 @@
         ],
         "parentClass": "Dom\\Element",
         "interfaces": [
-            "Dom\\ChildNode",
-            "Dom\\ParentNode"
+            "\\Dom\\ChildNode",
+            "\\Dom\\ParentNode"
         ]
     },
     {
@@ -30267,7 +30267,7 @@
         ],
         "parentClass": "DOMCharacterData",
         "interfaces": [
-            "DOMChildNode"
+            "\\DOMChildNode"
         ]
     },
     {
@@ -31237,7 +31237,7 @@
         ],
         "parentClass": "Dom\\CharacterData",
         "interfaces": [
-            "Dom\\ChildNode"
+            "\\Dom\\ChildNode"
         ]
     },
     {
@@ -32273,7 +32273,7 @@
         ],
         "parentClass": "DOMCharacterData",
         "interfaces": [
-            "DOMChildNode"
+            "\\DOMChildNode"
         ]
     },
     {
@@ -33213,7 +33213,7 @@
         ],
         "parentClass": "Dom\\CharacterData",
         "interfaces": [
-            "Dom\\ChildNode"
+            "\\Dom\\ChildNode"
         ]
     },
     {
@@ -34301,7 +34301,7 @@
         ],
         "parentClass": "DOMText",
         "interfaces": [
-            "DOMChildNode"
+            "\\DOMChildNode"
         ]
     },
     {
@@ -35271,7 +35271,7 @@
         ],
         "parentClass": "Dom\\Text",
         "interfaces": [
-            "Dom\\ChildNode"
+            "\\Dom\\ChildNode"
         ]
     },
     {
@@ -36830,7 +36830,7 @@
         ],
         "parentClass": "Dom\\Node",
         "interfaces": [
-            "Dom\\ChildNode"
+            "\\Dom\\ChildNode"
         ]
     },
     {
@@ -42851,7 +42851,7 @@
         ],
         "parentClass": "Dom\\CharacterData",
         "interfaces": [
-            "Dom\\ChildNode"
+            "\\Dom\\ChildNode"
         ]
     },
     {
@@ -43654,9 +43654,9 @@
         "constants": [],
         "parentClass": null,
         "interfaces": [
-            "IteratorAggregate",
-            "Traversable",
-            "Countable"
+            "\\IteratorAggregate",
+            "\\Traversable",
+            "\\Countable"
         ]
     },
     {
@@ -44076,8 +44076,8 @@
         "constants": [],
         "parentClass": "Exception",
         "interfaces": [
-            "Throwable",
-            "Stringable"
+            "\\Throwable",
+            "\\Stringable"
         ]
     },
     {
@@ -44266,8 +44266,8 @@
         "constants": [],
         "parentClass": "Exception",
         "interfaces": [
-            "Throwable",
-            "Stringable"
+            "\\Throwable",
+            "\\Stringable"
         ]
     },
     {
@@ -44456,8 +44456,8 @@
         "constants": [],
         "parentClass": "LogicException",
         "interfaces": [
-            "Stringable",
-            "Throwable"
+            "\\Stringable",
+            "\\Throwable"
         ]
     },
     {
@@ -44646,8 +44646,8 @@
         "constants": [],
         "parentClass": "BadFunctionCallException",
         "interfaces": [
-            "Throwable",
-            "Stringable"
+            "\\Throwable",
+            "\\Stringable"
         ]
     },
     {
@@ -44836,8 +44836,8 @@
         "constants": [],
         "parentClass": "LogicException",
         "interfaces": [
-            "Stringable",
-            "Throwable"
+            "\\Stringable",
+            "\\Throwable"
         ]
     },
     {
@@ -45026,8 +45026,8 @@
         "constants": [],
         "parentClass": "LogicException",
         "interfaces": [
-            "Stringable",
-            "Throwable"
+            "\\Stringable",
+            "\\Throwable"
         ]
     },
     {
@@ -45216,8 +45216,8 @@
         "constants": [],
         "parentClass": "LogicException",
         "interfaces": [
-            "Stringable",
-            "Throwable"
+            "\\Stringable",
+            "\\Throwable"
         ]
     },
     {
@@ -45406,8 +45406,8 @@
         "constants": [],
         "parentClass": "LogicException",
         "interfaces": [
-            "Stringable",
-            "Throwable"
+            "\\Stringable",
+            "\\Throwable"
         ]
     },
     {
@@ -45596,8 +45596,8 @@
         "constants": [],
         "parentClass": "Exception",
         "interfaces": [
-            "Throwable",
-            "Stringable"
+            "\\Throwable",
+            "\\Stringable"
         ]
     },
     {
@@ -45786,8 +45786,8 @@
         "constants": [],
         "parentClass": "RuntimeException",
         "interfaces": [
-            "Stringable",
-            "Throwable"
+            "\\Stringable",
+            "\\Throwable"
         ]
     },
     {
@@ -45976,8 +45976,8 @@
         "constants": [],
         "parentClass": "RuntimeException",
         "interfaces": [
-            "Stringable",
-            "Throwable"
+            "\\Stringable",
+            "\\Throwable"
         ]
     },
     {
@@ -46166,8 +46166,8 @@
         "constants": [],
         "parentClass": "RuntimeException",
         "interfaces": [
-            "Stringable",
-            "Throwable"
+            "\\Stringable",
+            "\\Throwable"
         ]
     },
     {
@@ -46356,8 +46356,8 @@
         "constants": [],
         "parentClass": "RuntimeException",
         "interfaces": [
-            "Stringable",
-            "Throwable"
+            "\\Stringable",
+            "\\Throwable"
         ]
     },
     {
@@ -46546,8 +46546,8 @@
         "constants": [],
         "parentClass": "RuntimeException",
         "interfaces": [
-            "Stringable",
-            "Throwable"
+            "\\Stringable",
+            "\\Throwable"
         ]
     },
     {
@@ -46844,9 +46844,9 @@
         ],
         "parentClass": null,
         "interfaces": [
-            "OuterIterator",
-            "Traversable",
-            "Iterator"
+            "\\OuterIterator",
+            "\\Traversable",
+            "\\Iterator"
         ]
     },
     {
@@ -46962,9 +46962,9 @@
         "constants": [],
         "parentClass": null,
         "interfaces": [
-            "OuterIterator",
-            "Traversable",
-            "Iterator"
+            "\\OuterIterator",
+            "\\Traversable",
+            "\\Iterator"
         ]
     },
     {
@@ -47080,9 +47080,9 @@
         "constants": [],
         "parentClass": "IteratorIterator",
         "interfaces": [
-            "Iterator",
-            "Traversable",
-            "OuterIterator"
+            "\\Iterator",
+            "\\Traversable",
+            "\\OuterIterator"
         ]
     },
     {
@@ -47220,10 +47220,10 @@
         "constants": [],
         "parentClass": "FilterIterator",
         "interfaces": [
-            "OuterIterator",
-            "Traversable",
-            "Iterator",
-            "RecursiveIterator"
+            "\\OuterIterator",
+            "\\Traversable",
+            "\\Iterator",
+            "\\RecursiveIterator"
         ]
     },
     {
@@ -47350,9 +47350,9 @@
         "constants": [],
         "parentClass": "FilterIterator",
         "interfaces": [
-            "OuterIterator",
-            "Traversable",
-            "Iterator"
+            "\\OuterIterator",
+            "\\Traversable",
+            "\\Iterator"
         ]
     },
     {
@@ -47501,10 +47501,10 @@
         "constants": [],
         "parentClass": "CallbackFilterIterator",
         "interfaces": [
-            "Iterator",
-            "Traversable",
-            "OuterIterator",
-            "RecursiveIterator"
+            "\\Iterator",
+            "\\Traversable",
+            "\\OuterIterator",
+            "\\RecursiveIterator"
         ]
     },
     {
@@ -47642,10 +47642,10 @@
         "constants": [],
         "parentClass": "RecursiveFilterIterator",
         "interfaces": [
-            "RecursiveIterator",
-            "Iterator",
-            "Traversable",
-            "OuterIterator"
+            "\\RecursiveIterator",
+            "\\Iterator",
+            "\\Traversable",
+            "\\OuterIterator"
         ]
     },
     {
@@ -47806,9 +47806,9 @@
         "constants": [],
         "parentClass": "IteratorIterator",
         "interfaces": [
-            "Iterator",
-            "Traversable",
-            "OuterIterator"
+            "\\Iterator",
+            "\\Traversable",
+            "\\OuterIterator"
         ]
     },
     {
@@ -48142,12 +48142,12 @@
         ],
         "parentClass": "IteratorIterator",
         "interfaces": [
-            "Stringable",
-            "Iterator",
-            "Traversable",
-            "OuterIterator",
-            "ArrayAccess",
-            "Countable"
+            "\\Stringable",
+            "\\Iterator",
+            "\\Traversable",
+            "\\OuterIterator",
+            "\\ArrayAccess",
+            "\\Countable"
         ]
     },
     {
@@ -48503,13 +48503,13 @@
         ],
         "parentClass": "CachingIterator",
         "interfaces": [
-            "Countable",
-            "ArrayAccess",
-            "OuterIterator",
-            "Traversable",
-            "Iterator",
-            "Stringable",
-            "RecursiveIterator"
+            "\\Countable",
+            "\\ArrayAccess",
+            "\\OuterIterator",
+            "\\Traversable",
+            "\\Iterator",
+            "\\Stringable",
+            "\\RecursiveIterator"
         ]
     },
     {
@@ -48614,9 +48614,9 @@
         "constants": [],
         "parentClass": "IteratorIterator",
         "interfaces": [
-            "Iterator",
-            "Traversable",
-            "OuterIterator"
+            "\\Iterator",
+            "\\Traversable",
+            "\\OuterIterator"
         ]
     },
     {
@@ -48754,9 +48754,9 @@
         "constants": [],
         "parentClass": "IteratorIterator",
         "interfaces": [
-            "Iterator",
-            "Traversable",
-            "OuterIterator"
+            "\\Iterator",
+            "\\Traversable",
+            "\\OuterIterator"
         ]
     },
     {
@@ -48861,9 +48861,9 @@
         "constants": [],
         "parentClass": "IteratorIterator",
         "interfaces": [
-            "Iterator",
-            "Traversable",
-            "OuterIterator"
+            "\\Iterator",
+            "\\Traversable",
+            "\\OuterIterator"
         ]
     },
     {
@@ -49187,9 +49187,9 @@
         ],
         "parentClass": "FilterIterator",
         "interfaces": [
-            "OuterIterator",
-            "Traversable",
-            "Iterator"
+            "\\OuterIterator",
+            "\\Traversable",
+            "\\Iterator"
         ]
     },
     {
@@ -49535,10 +49535,10 @@
         ],
         "parentClass": "RegexIterator",
         "interfaces": [
-            "Iterator",
-            "Traversable",
-            "OuterIterator",
-            "RecursiveIterator"
+            "\\Iterator",
+            "\\Traversable",
+            "\\OuterIterator",
+            "\\RecursiveIterator"
         ]
     },
     {
@@ -49609,8 +49609,8 @@
         "constants": [],
         "parentClass": null,
         "interfaces": [
-            "Iterator",
-            "Traversable"
+            "\\Iterator",
+            "\\Traversable"
         ]
     },
     {
@@ -50056,9 +50056,9 @@
         ],
         "parentClass": "RecursiveIteratorIterator",
         "interfaces": [
-            "Iterator",
-            "Traversable",
-            "OuterIterator"
+            "\\Iterator",
+            "\\Traversable",
+            "\\OuterIterator"
         ]
     },
     {
@@ -50575,11 +50575,11 @@
         ],
         "parentClass": null,
         "interfaces": [
-            "IteratorAggregate",
-            "Traversable",
-            "ArrayAccess",
-            "Serializable",
-            "Countable"
+            "\\IteratorAggregate",
+            "\\Traversable",
+            "\\ArrayAccess",
+            "\\Serializable",
+            "\\Countable"
         ]
     },
     {
@@ -51095,12 +51095,12 @@
         ],
         "parentClass": null,
         "interfaces": [
-            "SeekableIterator",
-            "Traversable",
-            "Iterator",
-            "ArrayAccess",
-            "Serializable",
-            "Countable"
+            "\\SeekableIterator",
+            "\\Traversable",
+            "\\Iterator",
+            "\\ArrayAccess",
+            "\\Serializable",
+            "\\Countable"
         ]
     },
     {
@@ -51644,13 +51644,13 @@
         ],
         "parentClass": "ArrayIterator",
         "interfaces": [
-            "Countable",
-            "Serializable",
-            "ArrayAccess",
-            "Iterator",
-            "Traversable",
-            "SeekableIterator",
-            "RecursiveIterator"
+            "\\Countable",
+            "\\Serializable",
+            "\\ArrayAccess",
+            "\\Iterator",
+            "\\Traversable",
+            "\\SeekableIterator",
+            "\\RecursiveIterator"
         ]
     },
     {
@@ -52113,7 +52113,7 @@
         "constants": [],
         "parentClass": null,
         "interfaces": [
-            "Stringable"
+            "\\Stringable"
         ]
     },
     {
@@ -52665,10 +52665,10 @@
         "constants": [],
         "parentClass": "SplFileInfo",
         "interfaces": [
-            "Stringable",
-            "SeekableIterator",
-            "Traversable",
-            "Iterator"
+            "\\Stringable",
+            "\\SeekableIterator",
+            "\\Traversable",
+            "\\Iterator"
         ]
     },
     {
@@ -53338,10 +53338,10 @@
         ],
         "parentClass": "DirectoryIterator",
         "interfaces": [
-            "Iterator",
-            "Traversable",
-            "SeekableIterator",
-            "Stringable"
+            "\\Iterator",
+            "\\Traversable",
+            "\\SeekableIterator",
+            "\\Stringable"
         ]
     },
     {
@@ -54067,11 +54067,11 @@
         ],
         "parentClass": "FilesystemIterator",
         "interfaces": [
-            "Stringable",
-            "SeekableIterator",
-            "Traversable",
-            "Iterator",
-            "RecursiveIterator"
+            "\\Stringable",
+            "\\SeekableIterator",
+            "\\Traversable",
+            "\\Iterator",
+            "\\RecursiveIterator"
         ]
     },
     {
@@ -54752,11 +54752,11 @@
         ],
         "parentClass": "FilesystemIterator",
         "interfaces": [
-            "Stringable",
-            "SeekableIterator",
-            "Traversable",
-            "Iterator",
-            "Countable"
+            "\\Stringable",
+            "\\SeekableIterator",
+            "\\Traversable",
+            "\\Iterator",
+            "\\Countable"
         ]
     },
     {
@@ -55883,11 +55883,11 @@
         ],
         "parentClass": "SplFileInfo",
         "interfaces": [
-            "Stringable",
-            "RecursiveIterator",
-            "Traversable",
-            "Iterator",
-            "SeekableIterator"
+            "\\Stringable",
+            "\\RecursiveIterator",
+            "\\Traversable",
+            "\\Iterator",
+            "\\SeekableIterator"
         ]
     },
     {
@@ -56981,11 +56981,11 @@
         ],
         "parentClass": "SplFileObject",
         "interfaces": [
-            "SeekableIterator",
-            "Iterator",
-            "Traversable",
-            "RecursiveIterator",
-            "Stringable"
+            "\\SeekableIterator",
+            "\\Iterator",
+            "\\Traversable",
+            "\\RecursiveIterator",
+            "\\Stringable"
         ]
     },
     {
@@ -57454,11 +57454,11 @@
         ],
         "parentClass": null,
         "interfaces": [
-            "Iterator",
-            "Traversable",
-            "Countable",
-            "ArrayAccess",
-            "Serializable"
+            "\\Iterator",
+            "\\Traversable",
+            "\\Countable",
+            "\\ArrayAccess",
+            "\\Serializable"
         ]
     },
     {
@@ -57961,11 +57961,11 @@
         ],
         "parentClass": "SplDoublyLinkedList",
         "interfaces": [
-            "Serializable",
-            "ArrayAccess",
-            "Countable",
-            "Traversable",
-            "Iterator"
+            "\\Serializable",
+            "\\ArrayAccess",
+            "\\Countable",
+            "\\Traversable",
+            "\\Iterator"
         ]
     },
     {
@@ -58434,11 +58434,11 @@
         ],
         "parentClass": "SplDoublyLinkedList",
         "interfaces": [
-            "Serializable",
-            "ArrayAccess",
-            "Countable",
-            "Traversable",
-            "Iterator"
+            "\\Serializable",
+            "\\ArrayAccess",
+            "\\Countable",
+            "\\Traversable",
+            "\\Iterator"
         ]
     },
     {
@@ -58643,9 +58643,9 @@
         "constants": [],
         "parentClass": null,
         "interfaces": [
-            "Iterator",
-            "Traversable",
-            "Countable"
+            "\\Iterator",
+            "\\Traversable",
+            "\\Countable"
         ]
     },
     {
@@ -58850,9 +58850,9 @@
         "constants": [],
         "parentClass": "SplHeap",
         "interfaces": [
-            "Countable",
-            "Traversable",
-            "Iterator"
+            "\\Countable",
+            "\\Traversable",
+            "\\Iterator"
         ]
     },
     {
@@ -59057,9 +59057,9 @@
         "constants": [],
         "parentClass": "SplHeap",
         "interfaces": [
-            "Countable",
-            "Traversable",
-            "Iterator"
+            "\\Countable",
+            "\\Traversable",
+            "\\Iterator"
         ]
     },
     {
@@ -59328,9 +59328,9 @@
         ],
         "parentClass": null,
         "interfaces": [
-            "Iterator",
-            "Traversable",
-            "Countable"
+            "\\Iterator",
+            "\\Traversable",
+            "\\Countable"
         ]
     },
     {
@@ -59629,11 +59629,11 @@
         "constants": [],
         "parentClass": null,
         "interfaces": [
-            "IteratorAggregate",
-            "Traversable",
-            "ArrayAccess",
-            "Countable",
-            "JsonSerializable"
+            "\\IteratorAggregate",
+            "\\Traversable",
+            "\\ArrayAccess",
+            "\\Countable",
+            "\\JsonSerializable"
         ]
     },
     {
@@ -60138,12 +60138,12 @@
         "constants": [],
         "parentClass": null,
         "interfaces": [
-            "Countable",
-            "SeekableIterator",
-            "Traversable",
-            "Iterator",
-            "Serializable",
-            "ArrayAccess"
+            "\\Countable",
+            "\\SeekableIterator",
+            "\\Traversable",
+            "\\Iterator",
+            "\\Serializable",
+            "\\ArrayAccess"
         ]
     },
     {
@@ -60398,8 +60398,8 @@
         ],
         "parentClass": null,
         "interfaces": [
-            "Iterator",
-            "Traversable"
+            "\\Iterator",
+            "\\Traversable"
         ]
     },
     {
@@ -60574,8 +60574,8 @@
         "constants": [],
         "parentClass": null,
         "interfaces": [
-            "SessionHandlerInterface",
-            "SessionIdInterface"
+            "\\SessionHandlerInterface",
+            "\\SessionIdInterface"
         ]
     },
     {
@@ -60771,8 +60771,8 @@
         "constants": [],
         "parentClass": "RuntimeException",
         "interfaces": [
-            "Stringable",
-            "Throwable"
+            "\\Stringable",
+            "\\Throwable"
         ]
     },
     {
@@ -62446,8 +62446,8 @@
         "constants": [],
         "parentClass": null,
         "interfaces": [
-            "IteratorAggregate",
-            "Traversable"
+            "\\IteratorAggregate",
+            "\\Traversable"
         ]
     },
     {
@@ -63841,8 +63841,8 @@
         "constants": [],
         "parentClass": "Error",
         "interfaces": [
-            "Throwable",
-            "Stringable"
+            "\\Throwable",
+            "\\Stringable"
         ]
     },
     {
@@ -64031,8 +64031,8 @@
         "constants": [],
         "parentClass": "Random\\RandomError",
         "interfaces": [
-            "Stringable",
-            "Throwable"
+            "\\Stringable",
+            "\\Throwable"
         ]
     },
     {
@@ -64221,8 +64221,8 @@
         "constants": [],
         "parentClass": "Exception",
         "interfaces": [
-            "Throwable",
-            "Stringable"
+            "\\Throwable",
+            "\\Stringable"
         ]
     },
     {
@@ -64328,7 +64328,7 @@
         "constants": [],
         "parentClass": null,
         "interfaces": [
-            "Random\\Engine"
+            "\\Random\\Engine"
         ]
     },
     {
@@ -64446,7 +64446,7 @@
         "constants": [],
         "parentClass": null,
         "interfaces": [
-            "Random\\Engine"
+            "\\Random\\Engine"
         ]
     },
     {
@@ -64563,7 +64563,7 @@
         "constants": [],
         "parentClass": null,
         "interfaces": [
-            "Random\\Engine"
+            "\\Random\\Engine"
         ]
     },
     {
@@ -64590,8 +64590,8 @@
         "constants": [],
         "parentClass": null,
         "interfaces": [
-            "Random\\CryptoSafeEngine",
-            "Random\\Engine"
+            "\\Random\\CryptoSafeEngine",
+            "\\Random\\Engine"
         ]
     },
     {
@@ -65097,8 +65097,8 @@
         "constants": [],
         "parentClass": "Exception",
         "interfaces": [
-            "Throwable",
-            "Stringable"
+            "\\Throwable",
+            "\\Stringable"
         ]
     },
     {
@@ -65545,8 +65545,8 @@
         "constants": [],
         "parentClass": null,
         "interfaces": [
-            "Reflector",
-            "Stringable"
+            "\\Reflector",
+            "\\Stringable"
         ]
     },
     {
@@ -66054,8 +66054,8 @@
         ],
         "parentClass": "ReflectionFunctionAbstract",
         "interfaces": [
-            "Stringable",
-            "Reflector"
+            "\\Stringable",
+            "\\Reflector"
         ]
     },
     {
@@ -66504,8 +66504,8 @@
         "constants": [],
         "parentClass": null,
         "interfaces": [
-            "Stringable",
-            "Reflector"
+            "\\Stringable",
+            "\\Reflector"
         ]
     },
     {
@@ -66554,7 +66554,7 @@
         "constants": [],
         "parentClass": null,
         "interfaces": [
-            "Stringable"
+            "\\Stringable"
         ]
     },
     {
@@ -66614,7 +66614,7 @@
         "constants": [],
         "parentClass": "ReflectionType",
         "interfaces": [
-            "Stringable"
+            "\\Stringable"
         ]
     },
     {
@@ -66663,7 +66663,7 @@
         "constants": [],
         "parentClass": "ReflectionType",
         "interfaces": [
-            "Stringable"
+            "\\Stringable"
         ]
     },
     {
@@ -66712,7 +66712,7 @@
         "constants": [],
         "parentClass": "ReflectionType",
         "interfaces": [
-            "Stringable"
+            "\\Stringable"
         ]
     },
     {
@@ -67447,8 +67447,8 @@
         ],
         "parentClass": "ReflectionFunctionAbstract",
         "interfaces": [
-            "Stringable",
-            "Reflector"
+            "\\Stringable",
+            "\\Reflector"
         ]
     },
     {
@@ -68648,8 +68648,8 @@
         ],
         "parentClass": null,
         "interfaces": [
-            "Stringable",
-            "Reflector"
+            "\\Stringable",
+            "\\Reflector"
         ]
     },
     {
@@ -69838,8 +69838,8 @@
         ],
         "parentClass": "ReflectionClass",
         "interfaces": [
-            "Reflector",
-            "Stringable"
+            "\\Reflector",
+            "\\Stringable"
         ]
     },
     {
@@ -70571,8 +70571,8 @@
         ],
         "parentClass": null,
         "interfaces": [
-            "Stringable",
-            "Reflector"
+            "\\Stringable",
+            "\\Reflector"
         ]
     },
     {
@@ -70861,8 +70861,8 @@
         ],
         "parentClass": null,
         "interfaces": [
-            "Stringable",
-            "Reflector"
+            "\\Stringable",
+            "\\Reflector"
         ]
     },
     {
@@ -71052,8 +71052,8 @@
         "constants": [],
         "parentClass": null,
         "interfaces": [
-            "Stringable",
-            "Reflector"
+            "\\Stringable",
+            "\\Reflector"
         ]
     },
     {
@@ -71177,8 +71177,8 @@
         "constants": [],
         "parentClass": null,
         "interfaces": [
-            "Stringable",
-            "Reflector"
+            "\\Stringable",
+            "\\Reflector"
         ]
     },
     {
@@ -71378,8 +71378,8 @@
         ],
         "parentClass": null,
         "interfaces": [
-            "Stringable",
-            "Reflector"
+            "\\Stringable",
+            "\\Reflector"
         ]
     },
     {
@@ -72647,8 +72647,8 @@
         ],
         "parentClass": "ReflectionClass",
         "interfaces": [
-            "Reflector",
-            "Stringable"
+            "\\Reflector",
+            "\\Stringable"
         ]
     },
     {
@@ -72937,8 +72937,8 @@
         ],
         "parentClass": "ReflectionClassConstant",
         "interfaces": [
-            "Reflector",
-            "Stringable"
+            "\\Reflector",
+            "\\Stringable"
         ]
     },
     {
@@ -73238,8 +73238,8 @@
         ],
         "parentClass": "ReflectionEnumUnitCase",
         "interfaces": [
-            "Stringable",
-            "Reflector"
+            "\\Stringable",
+            "\\Reflector"
         ]
     },
     {
@@ -73456,8 +73456,8 @@
         "constants": [],
         "parentClass": null,
         "interfaces": [
-            "Stringable",
-            "Reflector"
+            "\\Stringable",
+            "\\Reflector"
         ]
     },
     {
@@ -73659,8 +73659,8 @@
         "constants": [],
         "parentClass": "Error",
         "interfaces": [
-            "Throwable",
-            "Stringable"
+            "\\Throwable",
+            "\\Stringable"
         ]
     },
     {
@@ -74400,11 +74400,11 @@
         "constants": [],
         "parentClass": null,
         "interfaces": [
-            "Stringable",
-            "Countable",
-            "RecursiveIterator",
-            "Traversable",
-            "Iterator"
+            "\\Stringable",
+            "\\Countable",
+            "\\RecursiveIterator",
+            "\\Traversable",
+            "\\Iterator"
         ]
     },
     {
@@ -74926,11 +74926,11 @@
         "constants": [],
         "parentClass": "SimpleXMLElement",
         "interfaces": [
-            "Iterator",
-            "Traversable",
-            "RecursiveIterator",
-            "Countable",
-            "Stringable"
+            "\\Iterator",
+            "\\Traversable",
+            "\\RecursiveIterator",
+            "\\Countable",
+            "\\Stringable"
         ]
     },
     {
@@ -75121,7 +75121,7 @@
         "constants": [],
         "parentClass": null,
         "interfaces": [
-            "Stringable"
+            "\\Stringable"
         ]
     },
     {
@@ -77742,7 +77742,7 @@
         "constants": [],
         "parentClass": null,
         "interfaces": [
-            "Stringable"
+            "\\Stringable"
         ]
     },
     {
@@ -77931,8 +77931,8 @@
         "constants": [],
         "parentClass": "Exception",
         "interfaces": [
-            "Throwable",
-            "Stringable"
+            "\\Throwable",
+            "\\Stringable"
         ]
     },
     {
@@ -80043,13 +80043,13 @@
         ],
         "parentClass": "RecursiveDirectoryIterator",
         "interfaces": [
-            "RecursiveIterator",
-            "Iterator",
-            "Traversable",
-            "SeekableIterator",
-            "Stringable",
-            "Countable",
-            "ArrayAccess"
+            "\\RecursiveIterator",
+            "\\Iterator",
+            "\\Traversable",
+            "\\SeekableIterator",
+            "\\Stringable",
+            "\\Countable",
+            "\\ArrayAccess"
         ]
     },
     {
@@ -82075,13 +82075,13 @@
         ],
         "parentClass": "RecursiveDirectoryIterator",
         "interfaces": [
-            "RecursiveIterator",
-            "Iterator",
-            "Traversable",
-            "SeekableIterator",
-            "Stringable",
-            "Countable",
-            "ArrayAccess"
+            "\\RecursiveIterator",
+            "\\Iterator",
+            "\\Traversable",
+            "\\SeekableIterator",
+            "\\Stringable",
+            "\\Countable",
+            "\\ArrayAccess"
         ]
     },
     {
@@ -82758,7 +82758,7 @@
         "constants": [],
         "parentClass": "SplFileInfo",
         "interfaces": [
-            "Stringable"
+            "\\Stringable"
         ]
     },
     {
@@ -82986,8 +82986,8 @@
         "constants": [],
         "parentClass": "Error",
         "interfaces": [
-            "Throwable",
-            "Stringable"
+            "\\Throwable",
+            "\\Stringable"
         ]
     },
     {
@@ -83176,8 +83176,8 @@
         "constants": [],
         "parentClass": "FFI\\Exception",
         "interfaces": [
-            "Stringable",
-            "Throwable"
+            "\\Stringable",
+            "\\Throwable"
         ]
     },
     {
@@ -87751,9 +87751,9 @@
         "constants": [],
         "parentClass": null,
         "interfaces": [
-            "IteratorAggregate",
-            "Traversable",
-            "Countable"
+            "\\IteratorAggregate",
+            "\\Traversable",
+            "\\Countable"
         ]
     },
     {
@@ -92123,8 +92123,8 @@
         "constants": [],
         "parentClass": "Exception",
         "interfaces": [
-            "Throwable",
-            "Stringable"
+            "\\Throwable",
+            "\\Stringable"
         ]
     },
     {
@@ -92195,8 +92195,8 @@
         "constants": [],
         "parentClass": null,
         "interfaces": [
-            "Iterator",
-            "Traversable"
+            "\\Iterator",
+            "\\Traversable"
         ]
     },
     {
@@ -92713,8 +92713,8 @@
         ],
         "parentClass": null,
         "interfaces": [
-            "IteratorAggregate",
-            "Traversable"
+            "\\IteratorAggregate",
+            "\\Traversable"
         ]
     },
     {
@@ -93298,8 +93298,8 @@
         ],
         "parentClass": "IntlBreakIterator",
         "interfaces": [
-            "Traversable",
-            "IteratorAggregate"
+            "\\Traversable",
+            "\\IteratorAggregate"
         ]
     },
     {
@@ -93816,8 +93816,8 @@
         ],
         "parentClass": "IntlBreakIterator",
         "interfaces": [
-            "Traversable",
-            "IteratorAggregate"
+            "\\Traversable",
+            "\\IteratorAggregate"
         ]
     },
     {
@@ -93929,8 +93929,8 @@
         ],
         "parentClass": "IntlIterator",
         "interfaces": [
-            "Traversable",
-            "Iterator"
+            "\\Traversable",
+            "\\Iterator"
         ]
     },
     {
@@ -100397,8 +100397,8 @@
         "constants": [],
         "parentClass": "RuntimeException",
         "interfaces": [
-            "Stringable",
-            "Throwable"
+            "\\Stringable",
+            "\\Throwable"
         ]
     },
     {
@@ -102156,8 +102156,8 @@
         "constants": [],
         "parentClass": null,
         "interfaces": [
-            "IteratorAggregate",
-            "Traversable"
+            "\\IteratorAggregate",
+            "\\Traversable"
         ]
     },
     {
@@ -108805,8 +108805,8 @@
         "constants": [],
         "parentClass": "Exception",
         "interfaces": [
-            "Stringable",
-            "Throwable"
+            "\\Stringable",
+            "\\Throwable"
         ]
     },
     {
@@ -109227,8 +109227,8 @@
         "constants": [],
         "parentClass": "Exception",
         "interfaces": [
-            "Throwable",
-            "Stringable"
+            "\\Throwable",
+            "\\Stringable"
         ]
     },
     {
@@ -111793,7 +111793,7 @@
         ],
         "parentClass": null,
         "interfaces": [
-            "Countable"
+            "\\Countable"
         ]
     },
     {
@@ -182132,7 +182132,7 @@
         "_type": "PHPConstant",
         "name": "PHP_VERSION",
         "id": "\\PHP_VERSION",
-        "value": "8.4.22",
+        "value": "8.4.25",
         "namespace": "\\"
     },
     {
@@ -182153,7 +182153,7 @@
         "_type": "PHPConstant",
         "name": "PHP_RELEASE_VERSION",
         "id": "\\PHP_RELEASE_VERSION",
-        "value": 22,
+        "value": 25,
         "namespace": "\\"
     },
     {
@@ -182167,7 +182167,7 @@
         "_type": "PHPConstant",
         "name": "PHP_VERSION_ID",
         "id": "\\PHP_VERSION_ID",
-        "value": 80422,
+        "value": 80425,
         "namespace": "\\"
     },
     {
@@ -182895,14 +182895,14 @@
         "_type": "PHPConstant",
         "name": "OPENSSL_VERSION_TEXT",
         "id": "\\OPENSSL_VERSION_TEXT",
-        "value": "OpenSSL 3.5.7 9 Jun 2026",
+        "value": "OpenSSL 3.5.8 25 Aug 2026",
         "namespace": "\\"
     },
     {
         "_type": "PHPConstant",
         "name": "OPENSSL_VERSION_NUMBER",
         "id": "\\OPENSSL_VERSION_NUMBER",
-        "value": 810549360,
+        "value": 810549376,
         "namespace": "\\"
     },
     {
@@ -198659,14 +198659,14 @@
         "_type": "PHPConstant",
         "name": "PGSQL_LIBPQ_VERSION",
         "id": "\\PGSQL_LIBPQ_VERSION",
-        "value": "18.4",
+        "value": "18.6",
         "namespace": "\\"
     },
     {
         "_type": "PHPConstant",
         "name": "PGSQL_LIBPQ_VERSION_STR",
         "id": "\\PGSQL_LIBPQ_VERSION_STR",
-        "value": "18.4",
+        "value": "18.6",
         "namespace": "\\"
     },
     {
